@@ -9,7 +9,7 @@ import Skills from "./components/Skills"
 function App() {
 
   return (
-    <div className="bg-[#242625]  gap-4 h-[100%] w-[100%]"> 
+    <div className="bg-gray-800  gap-4 h-[100%] w-[100%]"> 
 <Nav_bar/>
 <Home/>
 <Features/>

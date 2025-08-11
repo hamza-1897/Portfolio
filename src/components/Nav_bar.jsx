@@ -13,7 +13,7 @@ const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <div id='home' className="w-[100%] flex justify-between items-center h-[10vh] overflow-hidden bg-[#242625] shadow-sm shadow-white">
+      <div id='home' className="w-[100%] flex justify-between items-center h-[10vh] overflow-hidden  shadow-sm shadow-white">
 <div id="nav-logo" className="h-full w-[30%]  flex items-center justify-center  ">
   <div className="h-full flex items-center justify-center ">
     <h1 className="text-white font-mono ml-4 md:ml-0.5 text-lg md:text-xl">PORTFOLIO</h1>
