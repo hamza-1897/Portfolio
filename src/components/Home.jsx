@@ -20,7 +20,7 @@ const Home = () => {
   <div><h1 className="text-white text-3xl md:text-3xl lg:text-6xl font-bold">I'M MUHAMMAD HAMZA</h1></div>
   <div className="mt-4 w-[60%] md:w-full md:text-lg lg:text-xl text-white"><h2>
     A passionate developer specializing in MERN Stack, Mobile Application Development, and exploring the realms of AI & Machine Learning.
-    Currently pursuing BS Informational Technology at  Univercity of Punjab , Lahore.
+    Currently pursuing BS Informational Technology at  University of Punjab , Lahore.
   </h2></div>
   <div id="buttons" className="flex my-8 gap-6" >
     <button className="cursor-pointer bg-blue-400 hover:bg-blue-500 rounded flex justify-center items-center gap-1 text-white md:px-3 py-1 px-2 md:py-1 "> <p className='lg:text-2xl md:text-lg font-bold'>  <  CiMail /></p> Hire me</button>
