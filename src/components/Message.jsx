@@ -1,48 +1,68 @@
 import React from 'react'
 import { IoIosSend } from "react-icons/io";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
+
+
+
 const Message = () => {
   return (
     
-    <div id='contact' className='flex flex-col w-full md:h-[90vh] h-[75vh] md:mt-10 md:mb-7'>
-      <div className='flex justify-center items-center w-full md:h-[6%]'>
-        <h1 className='md:text-3xl text-2xl text-white font-bold'> Get In Touch</h1>
-      </div>
-      <div className=' flex justify-center items-center w-full h-[90%]'>
-            <div className='md:w-[60%] w-[75%] rounded-lg flex flex-col gap-3.5 items-center shadow-[2px_2px_5px_rgba(0,0,0,0.3),_-2px_-2px_15px_rgba(255,255,255,0.3)] h-[80%] md:h-[75%]'>
-
-                <div id='name' className='w-full flex pt-2 md:pt-0 md:flex-row flex-col justify-center items-center md:gap-0.5 gap-2 md:h-[20%] h-[35%]'>
-                    <div className='md:w-[50%] w-[90%] flex md:flex-row flex-col justify-center items-center h-full'>
-                        <div className='flex flex-col gap-2 text-white w-full md:w-[90%] h-[50%]'>
-                            <h1 className='text-sm'>Name*</h1>
-                            <input type="text" name="name" placeholder='Enter Your Name...' className='rounded px-3 py-2 bg-slate-950' />
-                        </div>
-                    </div>
-                    <div className='md:w-[50%] w-[90%] flex justify-center items-center  h-full'>
-                        <div className='flex flex-col gap-2 text-white w-full md:w-[90%] h-[50%]'>
-                            <h1 className='text-sm'>Email*</h1>
-                            <input type="text" name="email" placeholder='Enter Your Email...' className='rounded px-3 py-2 bg-slate-950' />
-                        </div>
-                    </div>      
-                              </div>
-
-
-
-                <div id='mes' className='w-full h-[40%] md:my-0  mt-6 md:h-[50%]  flex justify-center'>
-                     <div className='md:w-[95%] w-[90%] flex flex-col gap-2 text-white  h-full'>
+     <section id="contact" class="py-20 px-6 md:px-8 bg-gray-800">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center text-white mb-4">Contact Me</h2>
+            <p class="text-center text-gray-400 max-w-2xl mx-auto mb-12">
+                I'm currently open to new opportunities. Feel free to reach out to me with any question .
+            </p>
+            
+            <div class="flex flex-col justify-center items-center  gap-12  mx-auto">
+                
+               
+                
+                <div class="w-full md:w-1/2 flex flex-col items-center justify-center">
+                    <div class="space-y-6 bg-gray-900 p-8 rounded-xl shadow-lg">
                         
-                            <h1 className='text-sm'>Your Message*</h1>
-                                <textarea name="Message" placeholder='Write Your Message here.....' id="message" rows={7} className='rounded px-3 py-3   bg-slate-950'/>
-                                 
-                    </div>   
+                        <div class="flex items-center space-x-4">
+                            <i class=" text-2xl text-blue-500"><MdEmail /></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-300">Email Address</h4>
+                                <a href="mailto:Mohammadamin78630@gmail.com" class="text-blue-400 hover:underline">hanjaa1897@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        
 
-                </div>
-                <div id='send' className='w-full h-[15%]  flex items-center justify-center'>
-                    <button type="submit" className='flex cursor-pointer justify-center md:h-[60%] py-1 h-[55%] mb-3 rounded w-[85%] font-bold items-center bg-blue-500 text-white hover:shadow-blue-400 gap-1 hover:bg-blue-700'><span className='text-lg md:text-xl'><IoIosSend /></span><h1>Send Message</h1></button>
-                </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fa-solid fa-house text-2xl text-blue-500"><FaLocationDot /></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-300">Address</h4>
+                                <a href="tel:+921234567890" class="text-blue-400 hover:underline">Mandi Bahauddin, Punjab, Pakistan</a>
+                            </div>
+                        </div>
 
+                        <div class="pt-4">
+                            <h4 class="text-lg font-semibold text-gray-300 mb-4">Follow Me</h4>
+                            <div class="flex space-x-6">
+                                         <a className='text-white text-2xl hover:text-red-500 ' target='_blank' href="https://www.instagram.com/hamzaaa.1897"><FaInstagram /></a>
+                                                             <a className='text-white text-2xl hover:text-blue-500 ' target='_blank'  href="https://www.linkedin.com/in/muhammad-hamza-410a95326?utm_source"><FaLinkedin /></a>
+                                                             <a className='text-white text-2xl hover:text-black ' target='_blank' href="https://github.com/hnjaa1897"><FaGithubSquare /> </a>
+                                               
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
             </div>
-      </div>
-    </div>
+            
+        </div>
+    </section>
+
+
+
   )
 }
 

@@ -14,10 +14,7 @@ const Footer = () => {
 
                     <div className='flex justify-center  gap-8 items-center'>
 
-                         <a className='text-white text-2xl hover:text-red-500 ' target='_blank' href="https://www.instagram.com/hamzaaa.1897"><FaInstagram /></a>
-                              <a className='text-white text-2xl hover:text-blue-500 ' target='_blank'  href="https://www.linkedin.com/in/muhammad-hamza-410a95326?utm_source"><FaLinkedin /></a>
-                              <a className='text-white text-2xl hover:text-black ' target='_blank' href="https://github.com/hnjaa1897"><FaGithubSquare /> </a>
-                    </div>
+                          </div>
 
             </div>
             <div id='to_top' className='md:h-full md:w-[30%] h-[30%] w-full justify-center items-center flex'>
