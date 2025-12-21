@@ -47,9 +47,9 @@ const Skills = () => {
                 </div>
                 
                 <div class="bg-gray-900 p-6 flex flex-col justify-center items-center rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-                                        <i class=" text-blue-700 text-4xl mb-4"><FaFlutter /></i>
+                                          <i class=" text-blue-500 group-hover:animate-spin text-5xl mb-4"><FaReact /></i>
 
-                    <h3 class="text-xl text-white font-semibold">Flutter</h3>
+                    <h3 class="text-xl text-white font-semibold">React Native</h3>
 
                 </div>
                 
