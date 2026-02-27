@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithubSquare } from "react-icons/fa";
 import tfs from '../assets/tfs2.jpeg';
 import abt from '../assets/abt.png';
-
+import mamin from '../assets/amin.png';
 
 const Projects = () => {
   const projectData = [
@@ -19,6 +19,13 @@ const Projects = () => {
       tech: ["React Native", "Express.js", "MongoDB"],
       github: "https://github.com/hamza-1897/Teacher-Feedback-System.git",
       image: tfs
+    },
+    {
+      title: "Portfolio Website",
+      description: "A Portfolio website for M.Amin , a heavy truck driver in EU.",
+      tech: ["HTML", "Tailwind CSS"],
+      github: "https://github.com/hamza-1897/m-amin-portfolio.git",
+      image: mamin
     }
   ];
 
