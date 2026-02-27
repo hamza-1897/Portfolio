@@ -21,7 +21,7 @@ const Footer = () => {
                     <a href='#home' className='bg-blue-500 text-md rounded-2xl px-2 shadow-md hover:shadow-sm hover:bg-blue-600 cursor-pointer hover:shadow-blue-500 py-1 text-white '>Back to Top </a>
             </div>
             <div id='copy' className='md:h-full h-[30%] w-full flex justify-center   items-center md:w-[30%]'>
-                <h1 className='flex justify-center items-center text-slate-300'>© 2025 Made with <span className='mx-2 text-red-500'><FaHeart /></span> by Muhamad Hamza </h1>
+                <h1 className='flex justify-center items-center text-slate-300'>© 2026 Made with <span className='mx-2 text-red-500'><FaHeart /></span> by Muhamad Hamza </h1>
             </div>
         </div>
 
