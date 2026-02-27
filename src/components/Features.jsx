@@ -26,8 +26,10 @@ const Features = () => {
   <h1 className="md:text-2xl text-lg group-hover:text-white  transition duration-500 text-blue-400 font-bold">
 MERN Stack Development</h1>
 </div>
-<div className="w-[100%] h-[52%]  flex justify-center ">
-  <p className="w-[80%] md:text-lg text-sm  text-white">Specialized in building full-stack web applications using MongoDB, Express.js, React, and Node.js. Creating responsive, scalable, and modern web solutions with clean architecture and best practices for optimal performance and user experience.</p>
+<div className="w-[100%] h-[50%]  flex justify-center ">
+  <p className="w-[80%] md:text-lg text-sm  text-white">Specialized in building full-stack web applications 
+    using MongoDB, Express.js, React, and Node.js. Creating responsive, 
+    scalable, and modern web solutions.</p>
 </div>
       </motion.div>
               
@@ -36,16 +38,15 @@ MERN Stack Development</h1>
          <motion.div  initial={{ opacity: 0, y: 300 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, ease: 'easeIn' }}
-      viewport={{ once: true, amount: 0.2 }} id="card" className=" w-[80%] h-[90%]  md:h-[90%]  md:w-[80%] animate-pulse shadow-[2px_2px_5px_rgba(0,0,0,0.3),_-2px_-2px_15px_rgba(255,255,255,0.3)] rounded-2xl flex flex-col justify-center  transition duration-500 group hover:bg-blue-500  ">
+      viewport={{ once: true, amount: 0.2 }} id="card" className=" w-[80%] h-[90%]  md:h-[94%]  md:w-[80%] animate-pulse shadow-[2px_2px_5px_rgba(0,0,0,0.3),_-2px_-2px_15px_rgba(255,255,255,0.3)] rounded-2xl flex flex-col justify-center  transition duration-500 group hover:bg-blue-500  ">
 <div className="w-[100%] h-[20%]  flex items-center  "> <div className='md:ml-7 ml-10 font-bold text-6xl md:text-5xl group-hover:text-white text-blue-500 group-hover:animate-bounce '><FaMobile /></div></div>
 <div className="w-[100%] h-[15%] flex justify-center ">
   <h1 className="md:text-2xl text-lg w-[70%]  group-hover:text-white  transition duration-500 text-blue-400 font-bold">Responsive Web Development</h1>
 </div>
-<div className="w-[100%] h-[52%]  mt-4 flex justify-center ">
-  <p className="w-[80%] md:text-lg text-sm  text-white">Building mobile-first, responsive websites that provide
+<div className="w-[100%] h-[50%]  mt-4 flex justify-center ">
+  <p className="w-[80%] md:text-lg text-sm py-2 text-white">Building responsive websites that provide
      optimal viewing experience across all devices. Implementing modern CSS frameworks
-      like Tailwind CSS to ensure consistent and adaptive layouts that enhance usability
-       and engagement on any screen size.</p>
+      like Tailwind CSS to ensure consistent and adaptive layouts.</p>
 </div>
       </motion.div>
        

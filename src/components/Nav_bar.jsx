@@ -19,19 +19,19 @@ const [isOpen, setIsOpen] = useState(false);
     <h1 className="text-white font-mono ml-4 md:ml-0.5 text-lg md:text-xl">PORTFOLIO</h1>
   </div>
 </div>
-{/*navigation for medium and larg */}
+
       <div id="nav-menu" className="md:flex  hidden justify-end w-[65%] h-full  items-center">
 
   <ul className="flex md:gap-4 md:mr-15 w-[60%] mr-10 font-sansarif text-lg text-white justify-around ">
     <a className="hover:text-blue-400 " href="#home">Home</a>
     <a className="hover:text-blue-400 "  href="#features">Features</a>
     <a className="hover:text-blue-400 "  href="#skills">Skills</a>
-    <a className="hover:text-blue-400 "  href="#">Projects</a>
+    <a className="hover:text-blue-400 "  href="#projects">Projects</a>
     <a className="hover:text-blue-400 "  href="#contact">Contact</a>
   </ul>
 
         </div>
-{/*navogation for mbl */}
+
 
 
 <div className="md:hidden  h-ful w-[20%] ">
